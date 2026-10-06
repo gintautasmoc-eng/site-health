@@ -33,6 +33,18 @@ const RETRY_DELAY_MS = 120_000 // 2 min — covers transient CDN/cold-start blip
 const USER_AGENT = 'site-health-monitor/1.0 (+https://github.com/langmita/site-health; health check, no CRM writes)'
 
 async function probe(site) {
+  // Test hook: set FORCE_FAIL=<comma-separated site names> to simulate a
+  // failure for alert-path testing without actually breaking the site code.
+  // Example: FORCE_FAIL=naprawa-okna24.pl triggers the DOWN email for PL.
+  const forceFail = (process.env.FORCE_FAIL || '').split(',').map(s => s.trim()).filter(Boolean)
+  if (forceFail.includes(site.name)) {
+    return {
+      ok: false,
+      error: `FORCE_FAIL env set — simulating failure for alert-path testing`,
+      stepErrors: [],
+    }
+  }
+
   const errors = []
   const browser = await chromium.launch({ headless: true })
   try {
