@@ -10,5 +10,77 @@
     "failureStart": null,
     "lastAlertSent": null,
     "lastError": null
+  },
+  "langu-remontas.lt | homepage hero CTA | desktop": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "langu-remontas.lt | /lt/kontaktai inline form | desktop": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "langu-remontas.lt | Vilnius service page CTA | desktop": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "naprawa-okna24.pl | homepage hero CTA | desktop": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "naprawa-okna24.pl | /pl/kontakt inline form | desktop": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "naprawa-okna24.pl | /pl/uslugi service page CTA | desktop": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "langu-remontas.lt | homepage hero CTA | mobile": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "langu-remontas.lt | /lt/kontaktai inline form | mobile": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "langu-remontas.lt | Vilnius service page CTA | mobile": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "naprawa-okna24.pl | homepage hero CTA | mobile": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "naprawa-okna24.pl | /pl/kontakt inline form | mobile": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
+  },
+  "naprawa-okna24.pl | /pl/uslugi service page CTA | mobile": {
+    "status": "ok",
+    "failureStart": null,
+    "lastAlertSent": null,
+    "lastError": null
   }
 }
