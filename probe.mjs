@@ -22,7 +22,7 @@ const SITES = [
     name: 'naprawa-okna24.pl',
     url: 'https://naprawa-okna24.pl/',
     // "UMÓW WIZYTĘ" — allow both Ó and O; stop before the Ę
-    heroButtonText: /INTENTIONALLY_BROKEN_SELECTOR_FOR_ALERT_TEST/i,
+    heroButtonText: /UM[OÓ]W\s+WIZYT/i,
     locale: 'pl-PL',
   },
 ]
