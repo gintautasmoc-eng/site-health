@@ -1,0 +1,17 @@
+{
+  "name": "site-health",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hourly synthetic monitor for langu-remontas.lt and naprawa-okna24.pl — checks that the hero CTA opens a working lead form, emails on breakage.",
+  "scripts": {
+    "probe": "node probe.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^10.0.15",
+    "playwright": "^1.48.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
