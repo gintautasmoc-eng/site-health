@@ -6,9 +6,9 @@
     "lastError": null
   },
   "naprawa-okna24.pl": {
-    "status": "ok",
-    "failureStart": null,
-    "lastAlertSent": null,
-    "lastError": null
+    "status": "fail",
+    "failureStart": "2026-10-06T13:53:32.440Z",
+    "lastAlertSent": "2026-10-06T13:53:32.440Z",
+    "lastError": "hero CTA button not visible (selector did not match any visible <button> with the expected text on homepage)"
   }
 }
