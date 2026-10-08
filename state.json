@@ -42,10 +42,10 @@
     "lastError": null
   },
   "naprawa-okna24.pl | /pl/uslugi service page CTA | desktop": {
-    "status": "ok",
-    "failureStart": null,
-    "lastAlertSent": null,
-    "lastError": null
+    "status": "fail",
+    "failureStart": "2026-10-08T09:41:36.651Z",
+    "lastAlertSent": "2026-10-08T09:41:36.651Z",
+    "lastError": "locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button:visible').filter({ hasText: /UM[OÓ]W\\s+WIZYT/i }).first()\n    - locator resolved to <button class=\"inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 rounded-button shadow-button\">UMÓW WIZYTĘ</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div role=\"dialog\" aria-modal=\"true\" aria-label=\"Promocja! Darmowy dojazd technika i diagnoza okien\" class=\"fixed inset-0 bg-black/50 flex items-center justify-center z-50 px-4\">…</div> intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div role=\"dialog\" aria-modal=\"true\" aria-label=\"Promocja! Darmowy dojazd technika i diagnoza okien\" class=\"fixed inset-0 bg-black/50 flex items-center justify-center z-50 px-4\">…</div> intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    19 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div role=\"dialog\" aria-modal=\"true\" aria-label=\"Promocja! Darmowy dojazd technika i diagnoza okien\" class=\"fixed inset-0 bg-black/50 flex items-center justify-center z-50 px-4\">…</div> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n"
   },
   "langu-remontas.lt | homepage hero CTA | mobile": {
     "status": "ok",
