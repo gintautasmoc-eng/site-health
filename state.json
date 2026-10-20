@@ -30,22 +30,22 @@
     "lastError": null
   },
   "naprawa-okna24.pl | homepage hero CTA | desktop": {
-    "status": "ok",
-    "failureStart": null,
-    "lastAlertSent": null,
-    "lastError": null
+    "status": "fail",
+    "failureStart": "2026-10-20T18:08:39.125Z",
+    "lastAlertSent": "2026-10-20T18:08:39.125Z",
+    "lastError": "page errors: console: Fetch API cannot load https://mv-prod-1-1053047382554.us-central1.run.app/events?cee=no. Refused to connect because it violates the document's Content Security Policy. | console: Fetch API cannot load https://demo-1.conversionsapigateway.com/events?cee=no. Refused to connect because it violates the document's Content Security Policy."
   },
   "naprawa-okna24.pl | /pl/kontakt inline form | desktop": {
-    "status": "ok",
-    "failureStart": null,
-    "lastAlertSent": null,
-    "lastError": null
+    "status": "fail",
+    "failureStart": "2026-10-20T18:08:39.125Z",
+    "lastAlertSent": "2026-10-20T18:08:39.125Z",
+    "lastError": "page errors: console: Fetch API cannot load https://mv-prod-1-1053047382554.us-central1.run.app/events?cee=no. Refused to connect because it violates the document's Content Security Policy. | console: Fetch API cannot load https://demo-1.conversionsapigateway.com/events?cee=no. Refused to connect because it violates the document's Content Security Policy."
   },
   "naprawa-okna24.pl | /pl/uslugi service page CTA | desktop": {
-    "status": "ok",
-    "failureStart": null,
-    "lastAlertSent": null,
-    "lastError": null
+    "status": "fail",
+    "failureStart": "2026-10-20T18:08:39.125Z",
+    "lastAlertSent": "2026-10-20T18:08:39.125Z",
+    "lastError": "page errors: console: Fetch API cannot load https://mv-prod-1-1053047382554.us-central1.run.app/events?cee=no. Refused to connect because it violates the document's Content Security Policy. | console: Fetch API cannot load https://demo-1.conversionsapigateway.com/events?cee=no. Refused to connect because it violates the document's Content Security Policy."
   },
   "langu-remontas.lt | homepage hero CTA | mobile": {
     "status": "ok",
