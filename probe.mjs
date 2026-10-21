@@ -129,7 +129,7 @@ async function probeScenario(browser, scenario, viewport) {
     if (msg.type() !== 'error') return
     const text = msg.text()
     // Third-party noise — not our bug surface
-    if (/favicon|preload|third-party cookie|cookiebot|googletagmanager|clarity|facebook|tiktok|hcaptcha/i.test(text)) return
+    if (/favicon|preload|third-party cookie|cookiebot|googletagmanager|clarity|facebook|tiktok|hcaptcha|conversionsapigateway|run\.app|refused to connect because it violates/i.test(text)) return
     errors.push(`console: ${text.slice(0, 200)}`)
   })
   page.on('response', r => {
